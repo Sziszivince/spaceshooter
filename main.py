@@ -10,6 +10,7 @@ def play():
     pygame.mixer.music.play(loops=10)
     pygame.mixer.music.set_volume(0.1)
 play();
+# hello
 
 pygame.mixer.pre_init(44100, 16, 4, 4096)
 pygame.init()
